@@ -20,7 +20,7 @@ public class MenuBarOrnek {
 		// Hazırladığımız şeriti pencereye yerleştir.
 		pencere.setJMenuBar(cubuk);
 		
-		// Pencerenin davranışını ve kapanış davranışını ayarla.
+		// Pencerenin boyutunu ve kapanış davranışını ayarla.
 		pencere.setSize(420,260);
 		pencere.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

@@ -16,7 +16,10 @@ public class SeperatorOrnek {
 		dosya.add(new JSeparator());
 		
 		// Çizginin altında ayrı bir komut gösterir.
-		dosya.add(new JMenuItem("Çıkış"));
+		JMenuItem cikis = new JMenuItem("Çıkış");
+		// Çıkış seçilince programı kapat.
+		cikis.addActionListener(e -> System.exit(0));
+		dosya.add(cikis);
 		
 		// Menüyü pencereye yerleştirir.
 		cubuk.add(dosya);

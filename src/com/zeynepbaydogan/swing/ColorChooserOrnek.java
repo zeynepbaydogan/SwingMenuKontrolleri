@@ -1,7 +1,7 @@
 package com.zeynepbaydogan.swing;
 import javax.swing.*;
 import java.awt.Color;
- class ColorChooserOrnek {
+public class ColorChooserOrnek {
 	public static void main(String[] args) {
 		// Panel düğmeyi ve arka plan rengini taşır.
 		JFrame pencere = new JFrame("Renk Seçici");
@@ -15,7 +15,7 @@ import java.awt.Color;
 				panel.setBackground(renk);
 			}
 		});
-		// Düğmeyi panele, paneli pencereye bekle.
+		// Düğmeyi panele, paneli pencereye ekle.
 		panel.add(dugme);
 		pencere.add(panel);
 		// Pencereyi göster

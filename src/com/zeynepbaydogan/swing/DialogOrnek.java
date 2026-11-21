@@ -16,6 +16,8 @@ public class DialogOrnek {
 			diyalog.add(yazi);
 			// Diyaloğu ayarla ve göster.
 			diyalog.setSize(310,160);
+			// Kapatınca diyaloğu bellekten de sil (her tıklamada yenisi açılıyor).
+			diyalog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 			diyalog.setLocationRelativeTo(pencere);
 			diyalog.setVisible(true);
 		});
