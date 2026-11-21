@@ -18,6 +18,7 @@ Paket: `com.zeynepbaydogan.swing`
 | `DialogOrnek` | `JDialog` — açılır diyalog penceresi |
 | `FileChooserOrnek` | `JFileChooser` — dosya seçme penceresi |
 | `ColorChooserOrnek` | `JColorChooser` — renk seçme penceresi |
+| `KisayolMenuOrnek` | `setMnemonic` / `setAccelerator` — menü kısayol tuşları (Alt + D, Ctrl + N / S / Q) |
 
 ## Çalıştırma
 
